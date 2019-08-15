@@ -1,28 +1,33 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GradeBook
 {
     class Program
     {
+
+
         static void Main(string[] args)
         {
-            //HelloWorld("Scott");
-            if (args.Length > 0)
+
+            double result = 0.0;
+            List<double> grades = new List<double>() { 1.0, 2.0, 3.0 };
+
+            grades.Add(10.6);
+            grades.Add(13.26);
+
+            Console.WriteLine(grades.Count);
+
+            foreach (double number in grades)
             {
-                Console.WriteLine($"Hello, {args[0]}");
+                result += number;
             }
-            else
-            {
-                Console.WriteLine("Please pass a name as a parameter.");
-            }
+
+            double average = result / grades.Count;
+
+            Console.WriteLine(average);
 
 
         }
-
-        /*  void HelloWorld(string name)
-        {
-            Console.WriteLine($"Hello, {name}");
-        }
-        */
     }
 }
