@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/scottslatton/Development/code/C# Basics/GradeBook/test/GradeBook.Tests/GradeBook.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/scottslatton/Development/code/C# Basics/GradeBook/test/GradeBook.Tests/GradeBook.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/scottslatton/Development/code/C# Basics/GradeBook/test/GradeBook.Tests/GradeBook.Tests.csproj",
+        "projectName": "GradeBook.Tests",
+        "projectPath": "/Users/scottslatton/Development/code/C# Basics/GradeBook/test/GradeBook.Tests/GradeBook.Tests.csproj",
+        "packagesPath": "/Users/scottslatton/.nuget/packages/",
+        "outputPath": "/Users/scottslatton/Development/code/C# Basics/GradeBook/test/GradeBook.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/scottslatton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
