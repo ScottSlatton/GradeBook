@@ -4,6 +4,55 @@
     "/Users/scottslatton/Development/code/C# Basics/GradeBook/test/GradeBook.Tests/GradeBook.Tests.csproj": {}
   },
   "projects": {
+    "/Users/scottslatton/Development/code/C# Basics/GradeBook/src/GradeBook/GradeBook.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/scottslatton/Development/code/C# Basics/GradeBook/src/GradeBook/GradeBook.csproj",
+        "projectName": "GradeBook",
+        "projectPath": "/Users/scottslatton/Development/code/C# Basics/GradeBook/src/GradeBook/GradeBook.csproj",
+        "packagesPath": "/Users/scottslatton/.nuget/packages/",
+        "outputPath": "/Users/scottslatton/Development/code/C# Basics/GradeBook/src/GradeBook/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/scottslatton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "/Users/scottslatton/Development/code/C# Basics/GradeBook/test/GradeBook.Tests/GradeBook.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +76,11 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/scottslatton/Development/code/C# Basics/GradeBook/src/GradeBook/GradeBook.csproj": {
+                "projectPath": "/Users/scottslatton/Development/code/C# Basics/GradeBook/src/GradeBook/GradeBook.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
